@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ff8fab;
+    margin: 3rem auto;
+    max-width: 520px;
+    border-radius: 2px;
+}
+
+img {
+    width: 100%;
+    border: 5px solid #fff;
+}
+
+.container {
+    background: #fff;
+    border: 8px solid #fff;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    cursor: pointer;
+}
